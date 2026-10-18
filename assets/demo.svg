@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="430" viewBox="0 0 880 430" role="img" aria-label="An agent answers a task and, before acting, says in one highlighted line that there may be a better way">
+  <style>
+    .t { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; fill: #d4d4d8; }
+    .dim { fill: #8b8b94; }
+    .user { fill: #f4f4f5; }
+    .prompt { fill: #a78bfa; font-weight: 700; }
+    .tool { fill: #4ade80; }
+    .title { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; fill: #a1a1aa; }
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="429" rx="12" fill="#18181b" stroke="#3f3f46"/>
+  <rect x="0.5" y="0.5" width="879" height="36" rx="12" fill="#27272a"/>
+  <rect x="0.5" y="24" width="879" height="12.5" fill="#27272a"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/>
+  <text x="440" y="23" text-anchor="middle" class="title">agent — ~/media-tool</text>
+
+  <text x="24" y="72" class="t"><tspan class="prompt">&gt;</tspan><tspan class="user"> Conversion fails on files like "client cut.mov". Rename the sources</tspan></text>
+  <text x="40" y="94" class="t user">to replace spaces with underscores before running ffmpeg, and add a test.</text>
+
+  <text x="24" y="134" class="t"><tspan class="tool">●</tspan><tspan class="dim"> Read src/media_tool/convert.py</tspan></text>
+  <text x="24" y="156" class="t"><tspan class="tool">●</tspan><tspan class="dim"> Read src/media_tool/ffmpeg.py</tspan></text>
+
+  <text x="24" y="196" class="t">The command is built as one shell string, so the space splits the path.</text>
+
+  <text x="28" y="242" class="t">There may be a better way: pass the arguments to subprocess</text>
+  <text x="28" y="264" class="t">as a list, without a shell — names with spaces just work and the files</text>
+  <text x="28" y="286" class="t">keep their names. Ask for a better-way review to go deeper.</text>
+  <path d="M 34 219 C 170 204, 430 203, 646 210 C 694 212, 716 240, 704 270 C 692 301, 560 307, 362 305 C 205 304, 40 308, 12 287 C -1 268, 0 230, 38 215 C 86 201, 152 205, 196 211"
+        fill="none" stroke="#ff3b30" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+  <path d="M 42 216 C 180 207, 440 206, 650 214 C 690 220, 708 244, 698 268"
+        fill="none" stroke="#ff3b30" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+
+  <text x="24" y="342" class="t">Should I do that instead, or rename the files as you asked?</text>
+
+  <text x="24" y="390" class="t"><tspan class="prompt">&gt;</tspan><tspan class="user"> yes, do it your way</tspan><tspan class="dim">▌</tspan></text>
+</svg>

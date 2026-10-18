@@ -1,0 +1,4 @@
+interface:
+  display_name: "Better Way"
+  short_description: "Check the route against the goal before acting"
+  default_prompt: "Use $better-way to review the decisions in this plan."

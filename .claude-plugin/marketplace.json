@@ -1,0 +1,8 @@
+{
+  "name": "better-way",
+  "description": "Check the user's route against the user's goal before acting",
+  "owner": { "name": "artmhm1" },
+  "plugins": [
+    { "name": "better-way", "source": "./", "description": "Say in one line when a better route reaches the user's goal; full XY-problem review on request" }
+  ]
+}
