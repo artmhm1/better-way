@@ -4,7 +4,7 @@ description: Use before acting on any request where the user prescribes HOW to d
 license: MIT
 metadata:
   author: artmhm1
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # better-way
@@ -17,9 +17,11 @@ out loud.
 ## Quick check — before every task with a prescribed route
 
 Ask yourself: does a clearly better route reach the same goal (simpler, safer, cheaper, already at
-hand)? If yes, say it before acting, in one line:
+hand)? If yes, say it before acting, in one line, in the user's language. The English form:
 
 > There may be a better way: <the route, in a few words>. Ask for a better-way review to go deeper.
+
+Keep "better-way review" as is in any language: it is the name that calls the full review.
 
 When the route is fine, or the difference is taste, say nothing.
 

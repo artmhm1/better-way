@@ -50,7 +50,7 @@ Without the CLI, copy `skills/better-way/` into your agent's skills folder: glob
 The skill works without it. In our runs the line helped smaller models a little, and the sample is too small to tell whether that is noise. Add to AGENTS.md / CLAUDE.md:
 
 ```
-- The user's goal is the decision; a route the user proposes (a method, a tool, an architecture, an order of work) is a hypothesis. If you see a better route, say so in one line before acting: "There may be a better way: <route>. Ask for a better-way review to go deeper." The user's answer settles it.
+- The user's goal is the decision; a route the user proposes (a method, a tool, an architecture, an order of work) is a hypothesis. If you see a better route, say so in one line, in the user's language, before acting: "There may be a better way: <route>. Ask for a better-way review to go deeper." The user's answer settles it.
 ```
 
 ## Does it work?

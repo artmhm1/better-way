@@ -1,7 +1,7 @@
 {
   "name": "better-way",
   "description": "Say in one line when a better route reaches the user's goal; full XY-problem review on request",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": { "name": "artmhm1" },
   "license": "MIT"
 }
